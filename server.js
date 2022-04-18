@@ -8,7 +8,7 @@ const app = express()
 app.use(express.json())
 
 mongoose.connect(
-  "mongodb+srv://m001-student:m001-mongodb-basics@cluster0.yjgkh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  "your mongdb connection string here",
   {
     useNewUrlParser: true,
     useFindAndModify: false,
